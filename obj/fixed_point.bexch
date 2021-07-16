@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__fixed_point.o
+[PROJECT FILES]
+C:\Users\User\Ada\Fixed_Point_Ada\fixed_point.gpr
+20210716152936 50eaeee31233eab0eab23307644f2c3a
+[BOUND OBJECT FILES]
+C:\Users\User\Ada\Fixed_Point_Ada\obj\fixed_point.o
+[GENERATED SOURCE FILES]
+b__fixed_point.ads
+b__fixed_point.adb
+b__fixed_point.ali
+[RESULTING OPTIONS]
+-LC:\Users\User\Ada\Fixed_Point_Ada\obj\
+-LC:\Users\User\Ada\Fixed_Point_Ada\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
