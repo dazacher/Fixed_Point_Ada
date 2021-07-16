@@ -27,4 +27,13 @@ begin
    FIO.Put(Money'Small,14,5,0);            TIO.New_Line;
    TIO.Put("Scale");
    IIO.Put(Money'Scale,28);                TIO.New_Line;
+   --Salary := Salary + 0.009;
+   Salary := (Salary / 3.0)*3;
+   DIO.Put(Salary);                        TIO.New_Line;
+    --Volume := Volume + 0.0377999; Gets truncated
+    --Volume := Volume + (0.0377999 * 10.0); Gets truncated
+    --Volume := Volume + (0.0577999 * 10.0); Gets truncated
+    Volume := Volume + (0.0677999 * 10.0); --Finally computes
+   --Volume := Volume + (0.0625*10.0);
+   VIO.Put(Volume);
 end Fixed_Point;

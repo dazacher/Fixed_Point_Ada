@@ -19,7 +19,7 @@ RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_ATTRIBUTES
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U fixed_point%b		fixed_point.adb		1d846791 NE OO SU
+U fixed_point%b		fixed_point.adb		4f650c8a NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
@@ -95,7 +95,7 @@ D a-tiinau.adb		20210520051130 89004916 ada.text_io.integer_aux%b
 D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-tiinio.adb		20210520051130 b79731f4 ada.text_io.integer_io%b
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D fixed_point.adb	20210716161220 b370b2fc fixed_point%b
+D fixed_point.adb	20210716162606 e191d9e7 fixed_point%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D system.ads		20210520051136 2ffa5114 system%s
@@ -176,15 +176,15 @@ X 1 ada.ads
 16K9*Ada 20e8 28|1r6 4r24
 X 9 a-textio.ads
 58K13*Text_IO 725e16 28|1w10 4r28
-262U14*New_Line 28|15s48 18s48 21s48 24s48 27s48 29s48
+262U14*New_Line 28|15s48 18s48 21s48 24s48 27s48 29s48 32s48
 463U14*Put 28|16s8 19s8 22s8 25s8 28s8
 506U14*Put_Line 28|14s8
 X 12 a-tideio.ads
 46k21*Decimal_IO 112e27 28|10r27
-82U14 Put 28|15s29[10]
+82U14 Put 28|15s29[10] 32s8[10]
 X 16 a-tifiio.ads
 26k21*Fixed_IO 92e25 28|8r27
-62U14 Put 28|15s8[8]
+62U14 Put 28|15s8[8] 38s8[8]
 X 20 a-tiflio.ads
 46k21*Float_IO 112e25 28|6r27
 82U14 Put 28|20s8[6] 21s8[6] 26s8[6] 27s8[6]
@@ -192,17 +192,17 @@ X 25 a-tiinio.ads
 46k21*Integer_IO 108e27 28|5r27
 80U14 Put 28|17s8[5] 18s8[5] 23s8[5] 24s8[5] 29s8[5]
 X 28 fixed_point.adb
-3U11*Fixed_Point 3b11 30l5 30t16
+3U11*Fixed_Point 3b11 39l5 39t16
 4K12 TIO=4:28 5r23 6r23 8r23 10r23 14r4 15r44 16r4 18r44 19r4 21r44 22r4
-. 24r44 25r4 27r44 28r4 29r44
+. 24r44 25r4 27r44 28r4 29r44 32r44
 5K12 IIO[25|46] 17r4 18r4 23r4 24r4 29r4
 6K12 FIO[20|46] 20r4 21r4 26r4 27r4
 7O9 Volume_DB 8r37 11r13 17r12 20r12 23r12 26r12
-8K12 VIO[16|26] 15r4
+8K12 VIO[16|26] 15r4 38r4
 9D9 Money 10r39 12r13 18r12 21r12 24r12 27r12 29r12
-10K12 DIO[12|46] 15r25
-11o4 Volume{7O9} 15r13
-12d4 Salary{9D9} 15r33
+10K12 DIO[12|46] 15r25 32r4
+11o4 Volume{7O9} 15r13 36m5 36r15 38r12
+12d4 Salary{9D9} 15r33 31m4 31r15 32r12
 X 29 interfac.ads
 55I9*Integer_64<long_long_integer>
 63I9*Integer_128<long_long_long_integer>
